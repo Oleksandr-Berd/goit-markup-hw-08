@@ -27,9 +27,22 @@
 
     padding: 50px 30px;
     overflow-y: scroll;
+
+
+   
 }
 
 .mobile-menu__btn{
     width: 40px;
     height: 40px;
+}
+
+.modal{
+    
+@media screen and (min-width:480px) {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
