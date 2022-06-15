@@ -65,8 +65,8 @@
     }
 }
 
-@media screen (min-width: 1200px){
-    .clietns-list__item{
+@media screen and (min-width: 1200px) {
+    .clients-list__item {
     width: auto;
     }
 }

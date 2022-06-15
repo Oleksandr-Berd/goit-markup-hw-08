@@ -116,7 +116,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1280px;
+    width: 1200px;
   }
 }
 
@@ -1316,6 +1316,11 @@ img {
 @media screen and (min-width: 768px) {
   .clients-list__item {
     min-width: calc(33.3333333333% - 30px);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clietns-list__item {
+    width: auto;
   }
 }
 .footer {
