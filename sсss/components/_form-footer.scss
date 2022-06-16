@@ -15,6 +15,7 @@
     @media screen and (min-width:1200px){
         margin-left: auto;
         margin: auto;
+        margin-top: 0;
     }
 }
 
@@ -29,7 +30,6 @@
 }
 
 .formfooter__input {
-    width: 450px;
     padding: 15px 16px;
     border-radius: 4px;
     border: 1px solid var(--footer-input-border);
@@ -42,6 +42,12 @@
     &:focus {
         border: 1px solid var(--accent-color);
     }
+
+    @media screen and (max-width:1999.98px){
+        max-width: 250px;
+        width: 100%;
+    }
+
     @media screen and (min-width:1200px){
         width: 358px;
     }
@@ -49,10 +55,9 @@
 }
 
 .formfooter {
-    display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    // justify-content: center;
 
     // @media screen and (min-width:768px){
     //     display: block;
@@ -64,6 +69,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
+        align-items: baseline;
     }
 }
 
