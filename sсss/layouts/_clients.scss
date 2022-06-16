@@ -63,17 +63,13 @@
     }
 }
 
-@media screen and (min-width: 768px){
-    .clients-list__item{
+.clients-list__item{
+    @media screen and (min-width:768px){
         min-width: calc(100%/3 - 2 * 15px);
     }
-    .clients-list__item {
-        min-width: calc(100%/6 - 2 * 15px);
+    @media screen and (min-width:1200px){
+            min-width: calc(100%/6 - 2 * 15px);
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .clients-list__item {
-    width: auto;
-    }
-}
+

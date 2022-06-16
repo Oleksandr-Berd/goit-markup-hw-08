@@ -1,7 +1,11 @@
 .footer {
     background-color: var(--logo-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+   
+
+    @media screen and (min-width:1200px){
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .adress-list .link {
@@ -19,19 +23,30 @@
 }
 
 .adress {
-    margin-top: 20px;
-    margin-right: 0;
+    
+    @media screen and (min-width:1200px){
+        margin-top: 20px;
+        margin-right: 0;
+    }
 }
 
 .adress-list__item {
+  
+
+    @media screen and (min-width:1200px){
     margin-bottom: 9px;
     margin-right: 0;
+    }
 
     &:last-child {
-        margin-bottom: 0;
+        @media screen and (min-width:1200px) {
+            margin-bottom: 0;
+        }
     }
 }
 
 .adrfooter-div {
-    margin-right: 70px;
+    @media screen and (min-width:1200px) {
+        margin-right: 70px;
+    }
 }
