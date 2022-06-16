@@ -82,14 +82,16 @@
 
 .footer-button {
     display: inline-block;
-    // justify-content: center;
-    // align-items: center;
     margin: 0;
     padding-right: 28px;
     padding-left: 29px;
+    @media screen and (min-width:768px){
+        display: inline-block;
+    }
     @media screen and (min-width:1200px){
         display: flex;
     }
+    
 }
 
 .footer-button__text {
