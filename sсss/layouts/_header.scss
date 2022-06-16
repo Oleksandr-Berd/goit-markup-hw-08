@@ -2,28 +2,18 @@
     border-bottom: 1px solid var(--border-portfolio);
 }
 
-
 .sec-header {
     padding-bottom: 32px;
 }
 
 .header-container {
-    // display: flex;
-    @media screen and (min-width: 768px){
-        display: flex;
-    }
+    display: flex;
 }
 
 .navigation-container {
-    // display: flex;
-    // align-items: center;
+    display: flex;
+    align-items: center;
     margin-right: auto;
-    @media screen and (max-width:767px){
-        display: flex;
-        justify-content: space-between;
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
 }
 
 .nav-adress {
@@ -35,14 +25,4 @@
 
 .portfolio-ph {
     margin-bottom: 94px;
-}
-
-.menu-button{
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    background-color: none;
-    @media screen and (min-width: 768px){
-        display: none;
-    }
 }

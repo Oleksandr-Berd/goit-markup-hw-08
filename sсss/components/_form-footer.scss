@@ -1,8 +1,5 @@
 .formfooter-container {
     margin-left: auto;
-    @media screen and (min-width:1200px){
-        margin-left: auto;
-    }
 }
 
 .formfooter__title {
@@ -10,9 +7,6 @@
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1.17;
-    @media screen and (max-width:767px) {
-           text-align: center;
-        }
 }
 
 .formfooter__input {
@@ -25,33 +19,18 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: border 250ms var(--tran-hover);
 
-    @media screen and (max-width:767px){
-        width: 100%;
-    }
-
     &:focus {
         border: 1px solid var(--accent-color);
     }
-         @media screen and (max-width:767px) {
-             margin-bottom: 20px;
-         }
 }
 
 .formfooter {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    @media screen and (max-width:767px) {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
 }
 
 .formfooter__label {
-    @media screen and (min-width: 1200px){
     margin-right: 12px;
-    }
 }

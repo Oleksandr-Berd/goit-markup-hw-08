@@ -11,6 +11,10 @@
 .clients-list {
    display: flex;
    flex-wrap: wrap;
+
+   @media screen and (min-width:1200px){
+    flex-wrap: nowrap;
+   }
 }
 
 .clients-list__item {
@@ -62,6 +66,9 @@
 @media screen and (min-width: 768px){
     .clients-list__item{
         min-width: calc(100%/3 - 2 * 15px);
+    }
+    .clients-list__item {
+        min-width: calc(100%/6 - 2 * 15px);
     }
 }
 

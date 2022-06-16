@@ -2,9 +2,6 @@
     background-color: var(--logo-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    @media screen and (max-width:767px) {
-           padding: 60px 15px;
-        }
 }
 
 .adress-list .link {
@@ -24,9 +21,6 @@
 .adress {
     margin-top: 20px;
     margin-right: 0;
-    @media screen and (max-width:767px) {
-            text-align: center;
-        }
 }
 
 .adress-list__item {
@@ -34,24 +28,10 @@
     margin-right: 0;
 
     &:last-child {
-            margin-bottom: 0;
-        }
+        margin-bottom: 0;
+    }
 }
 
 .adrfooter-div {
-    // margin-right: 70px;
-    @media screen and (max-width:767px) {
-        margin-bottom: 60px;
-        // display: flex;
-        // flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        }
-}
-
-.logo-footer{
-    @media screen and (max-width:767px){
-        justify-content: center;
-        display: flex;
-    }
+    margin-right: 70px;
 }
