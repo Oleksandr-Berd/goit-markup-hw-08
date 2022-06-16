@@ -23,6 +23,11 @@
 }
 
 .adress {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
     @media screen and (min-width:1200px){
         margin-top: 20px;
@@ -31,7 +36,7 @@
 }
 
 .adress-list__item {
-  
+    margin-bottom: 8px;
 
     @media screen and (min-width:1200px){
     margin-bottom: 9px;
@@ -46,7 +51,22 @@
 }
 
 .adrfooter-div {
+    text-align: center;
+    margin-bottom: 60px;
+
     @media screen and (min-width:1200px) {
         margin-right: 70px;
     }
 }
+
+.footer-parent{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-footer{
+    display: block;
+    margin-bottom: 20px;
+}
+
+
