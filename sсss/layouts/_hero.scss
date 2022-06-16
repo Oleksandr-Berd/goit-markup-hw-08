@@ -29,17 +29,19 @@
     text-transform: uppercase;
 }
 
-@media and (min-width: 1200px) {
-    
-    .hero-section {
-    height: 600px;
-    max-width: 1600px;
-    padding-bottom: 200px;
-    }
 
-    .hero-title {
-        font-size: 44px;
-        width: 696px;
-        line-height: 1.36;
+.hero-section {
+    @media screen and (min-width:1200px){
+        height: 600px;
+        max-width: 1600px;
+        padding-bottom: 200px;
+    }
+}
+
+.hero-title {
+    @media screen and (min-width:1200px){
+    font-size: 44px;
+    width: 696px;
+    line-height: 1.36;
     }
 }
