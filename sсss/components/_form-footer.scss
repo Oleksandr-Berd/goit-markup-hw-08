@@ -3,8 +3,18 @@
     margin-top: 60px;
     width: auto;
 
+    @media screen and (min-width:768px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-bottom: 0;
+    }
+
     @media screen and (min-width:1200px){
         margin-left: auto;
+        margin: auto;
     }
 }
 
@@ -15,6 +25,7 @@
     line-height: 1.17;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 .formfooter__input {
@@ -42,6 +53,12 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+
+    // @media screen and (min-width:768px){
+    //     display: block;
+    //     justify-content: center;
+    // }
+
     @media screen and (min-width:1200px){
         display: flex;
         justify-content: center;

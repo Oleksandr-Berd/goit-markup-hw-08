@@ -31,14 +31,33 @@
 
 
 .hero-section {
+    height: 400px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    max-width: 1600px;
+
     @media screen and (min-width:1200px){
         height: 600px;
-        max-width: 1600px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 }
 
+.hero-container {
+
+    @media screen and (min-width:768px){
+        padding-right: 204px;
+        padding-left: 204px;
+    }
+}
+
 .hero-title {
+    font-size: 6vw;
+    
+    @media screen and  (min-width:480px){
+        font-size: 26px;
+    }
+
     @media screen and (min-width:1200px){
     font-size: 44px;
     width: 696px;
