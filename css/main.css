@@ -957,9 +957,14 @@ img {
   overflow-y: scroll;
 }
 
-.mobile-menu__btn {
-  width: 40px;
-  height: 40px;
+.menu-btn {
+  background-color: var(--neutral-color);
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -969,16 +974,6 @@ img {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-  }
-}
-
-.menu-btn {
-  background-color: var(--neutral-color);
-  border: none;
-}
-@media screen and (min-width: 768px) {
-  .menu-btn {
-    display: none;
   }
 }
 
