@@ -1,5 +1,10 @@
 .navigation-list {
     display: none;
+
+    @media screen and (min-width:768px){
+        display: flex;
+        margin-right: 50px;
+    }
     
     @media screen and (min-width: 1200px){
         display: flex;
@@ -7,6 +12,10 @@
         &:last-child {
         margin-right: 0;
             }
+            padding-top: 32px;
+            padding-bottom: 32px;
+        
+        margin-right: 175px;
     }
     
 }
@@ -61,6 +70,13 @@
 
 .navigation-list__item {
 
+@media screen and (min-width:768px){
+    margin-right: 50px;
+
+    &:last-child {
+        margin-right: 0;
+}
+}
 @media screen and (min-width:1200px){
 margin-right: 50px;
 

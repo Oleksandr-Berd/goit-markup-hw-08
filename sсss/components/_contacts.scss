@@ -1,6 +1,11 @@
 .contact-list {
     display: none;
 
+    @media screen and (min-width:768px){
+        display: block;
+        width: 100%;
+    }
+
     @media screen and (min-width: 1200px){
         padding-bottom: 32px;
         padding-top: 32px;
@@ -16,10 +21,15 @@
 }
 
 .contact-list__item {
-    margin-right: 50px;
 
-    &:last-child {
-        margin-right: 0;
+    @media screen and (min-width:1200px){
+        margin-right: 50px;
+        &:last-child {
+                margin-right: 0;
+            }
+    }
+    @media screen and (min-width:768px){
+        margin-bottom: 10px;
     }
 }
 

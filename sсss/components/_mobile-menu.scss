@@ -7,33 +7,21 @@
     padding: 40px;
     background-color: var(--neutral-color);
     z-index: 999;
-
     display: flex;
     flex-direction: column;
 
-    transform: translateX(100%);
+    transform: translateX(-100%);
     transition: transform 250ms var(--hover-button);
 }
 
-.mobile-menu.is-open{
+.mobile-menu.is-hidden{
     transform: translateX(0);
+        pointer-events: none;
+        visibility: hidden;
 }
 
 .mobile-menu__contacts{
     margin-top: auto;
-}
-
-.backdrop{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-
-    background-color: rgba(0, 0, 0, 0.3);
-
-    padding: 50px 30px;
-    overflow-y: scroll;
 }
 
 .menu-btn {
