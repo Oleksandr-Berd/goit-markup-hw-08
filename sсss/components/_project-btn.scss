@@ -10,6 +10,10 @@
 .projects-list {
     display: flex;
     flex-wrap: wrap;
+
+    @media screen and (max-width:767px){
+        display: block;
+    }
 }
 
 .project-list__item {
@@ -20,10 +24,24 @@
 
     background-color: var(--neutral-color);
 
-    &:nth-child(3n) {
-        margin-right: 0;
+    @media screen and (min-width:1200px){
+        &:nth-child(3n) {
+                margin-right: 0;
     }
+    }
+
+@media screen and (max-width:767px){
+    margin-right: 0;
+    margin-left: 0;
 }
+
+@media screen and (min-width:768px) and (max-width:1199px){
+    width: calc(100%/2 - 2 * 15px);
+}
+
+}
+
+
 
 .project-list__image {
     margin: 0;
