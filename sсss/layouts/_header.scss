@@ -17,6 +17,10 @@
     @media screen and (min-width:768px){
         padding: 0;
     }
+
+    @media screen and (min-width:1200px){
+        // padding-bottom: 25px;
+    }
 }
 
 .navigation-container {
@@ -26,6 +30,7 @@
 
     @media screen and (max-width:767px){
         display: flex;
+        justify-content: space-between;
     }
 
     @media screen and (min-width: 768px){
