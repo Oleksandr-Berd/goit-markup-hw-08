@@ -401,7 +401,8 @@
                     <img src="./images/images_studio/imgp2_sm.jpg" 
                     alt="photo3" 
                     width="450" 
-                    height="460" 
+                    height="460"
+                    loading="lazy" 
                     />
                     
                 </picture>
@@ -442,7 +443,18 @@
               
             </li>
             <li class="team-list__item">
-                <img src="./images/images_studio/img-4p.jpg" alt="photo4">
+            <picture>
+                <source media="(max-width: 767px)" srcset="./images/images_studio/imgp3_sm.jpg 1x, 
+                                ./images/images_studio/img@2xp3_sm.jpg 2x" type="image/jpg">
+            
+                <source media="(min-width: 768px)" srcset="./images/images_studio/imgp3_md.jpg 1x, 
+                                    ./images/images_studio/img@2xp3_md.jpg 2x" type="image/jpg">
+            
+                <source media="(min-width: 1200px)" srcset="./images/images_studio/imgp3_lg.jpg 1x, 
+                                    ./images/images_studio/img@2xp3_lg.jpg 2x" type="image/jpg">
+            
+                <img src="./images/images_studio/imgp3_sm.jpg" alt="photo3" width="450" height="460" loading="lazy" />
+            </picture>
                 <div class="teambottom-container">
                     <h3 class="teambottom__title">Михаил Ермаков</h3>
                     <p class="teambottom__text">UI Designer</p>
