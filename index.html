@@ -382,7 +382,24 @@
                 
             </li>
             <li class="team-list__item">
-                <img src="./images/images_studio/img-3p.jpg" alt="photo3">
+                <picture>
+                    <source media="(max-width: 767px)" 
+                    srcset="./images/images_studio/imgp2_sm.jpg 1x, ./images/images_studio/img@2xp2_sm.jpg 2x" 
+                    type="image/jpg">
+
+                    <source media="(min-width: 768px)"
+                        srcset="./images/images_studio/imgp2_md.jpg 1x, ./images/images_studio/img@2xp2_md.jpg 2x" type="image/jpg">
+
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/images_studio/imgp2_lg.jpg 1x, ./images/images_studio/img@2xp2_lg.jpg 2x" type="image/jpg">
+                    
+                    <img src="./images/images_studio/imgp2_sm.jpg" 
+                    alt="photo3" 
+                    width="450" 
+                    height="460" 
+                    />
+                    
+                </picture>
                 <div class="teambottom-container">
                     <h3 class="teambottom__title">Николай Тарасов</h3>
                     <p class="teambottom__text">Marketing</p>
