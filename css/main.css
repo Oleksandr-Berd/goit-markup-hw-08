@@ -825,6 +825,7 @@ img {
   .project-list__item {
     margin-right: 0;
     margin-left: 0;
+    width: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1651,8 +1652,14 @@ img {
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .logo-footer {
+    margin-right: 0;
+  }
 }
 
 .navigation-list {
