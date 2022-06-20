@@ -3,6 +3,11 @@
     margin-top: 60px;
     width: auto;
 
+
+    @media screen and (max-width:767px){
+        margin-bottom: 0;
+    }
+
     @media screen and (min-width:768px){
         display: flex;
         align-items: center;

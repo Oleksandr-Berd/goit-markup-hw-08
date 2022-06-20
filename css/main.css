@@ -640,6 +640,11 @@ img {
   margin-top: 60px;
   width: auto;
 }
+@media screen and (max-width: 767px) {
+  .formfooter-container {
+    margin-bottom: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .formfooter-container {
     display: -webkit-box;
@@ -979,7 +984,7 @@ img {
   height: 100vh;
   padding: 40px;
   background-color: var(--neutral-color);
-  z-index: 999;
+  z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1223,6 +1228,11 @@ img {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .features-section {
+    padding-bottom: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .features-list {
     display: -webkit-box;
@@ -1255,6 +1265,7 @@ img {
 @media screen and (max-width: 767px) {
   .feature-list__title {
     text-align: center;
+    font-size: 14px;
   }
 }
 
