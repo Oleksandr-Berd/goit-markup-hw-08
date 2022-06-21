@@ -252,6 +252,11 @@ img {
   line-height: 1.2;
   text-decoration: none;
 }
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-bottom: 25px;
+  }
+}
 @media screen and (min-width: 768px) {
   .logo {
     margin-right: 88px;
@@ -1781,7 +1786,6 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .adress {
-    margin-top: 20px;
     margin-right: 0;
   }
 }
@@ -1838,6 +1842,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .navigation-container {
+    padding-bottom: 0;
+  }
+}
+
 .navigation-list {
   display: none;
   padding-bottom: 32px;
@@ -1876,9 +1886,14 @@ img {
 .navigation-list__link:hover, .navigation-list__link:focus {
   color: var(--accent-color);
 }
+@media screen and (min-width: 768px) {
+  .navigation-list__link {
+    padding-bottom: 38px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .navigation-list__link {
-    padding-bottom: 32px;
+    padding-top: 32px;
   }
 }
 

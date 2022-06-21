@@ -1,3 +1,9 @@
+.navigation-container{
+    @media screen and (min-width:1200px){
+        padding-bottom: 0;
+    }
+}
+
 .navigation-list {
     display: none;
     padding-bottom: 32px;
@@ -21,7 +27,6 @@
 
 .navigation-list__link {
     position: relative;
-
   
     padding-bottom: 32px;
     color: var(--title-color);
@@ -34,8 +39,13 @@
     &:focus {
         color: var(--accent-color);
     }
+
+    @media screen and (min-width:768px){
+        padding-bottom: 38px;
+    }
+
     @media screen and (min-width:1200px){
-        padding-bottom: 32px;
+        padding-top: 32px;
     }
 
 }
@@ -61,6 +71,7 @@
         transform: scale(0.5);
         transition: transform 500ms var(--tran-hover);
     }
+
 }
 
 .adress:hover,
