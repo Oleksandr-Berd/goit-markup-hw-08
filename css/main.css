@@ -39,10 +39,6 @@
   overflow: hidden;
 }
 
-h3 {
-  font-size: 14;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--title-color);
@@ -1458,10 +1454,8 @@ img {
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .service-section {
-    padding: 0px;
-  }
+.service-section {
+  padding: 0px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -1540,11 +1534,6 @@ img {
   .team-list__item {
     width: calc((100% - 60px) / 2);
     margin: 15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .team-list__item:not(:last-child) {
-    margin-bottom: 30px;
   }
 }
 
@@ -1660,6 +1649,11 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .problem_image {
     height: 374px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .problem_image {
+    height: 285.25px;
   }
 }
 

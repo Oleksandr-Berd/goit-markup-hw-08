@@ -22,11 +22,11 @@
      margin: 15px;
  }
 
- @media screen and (min-width:1200px){
-    &:not(:last-child) {
-            margin-bottom: 30px;
-        }
- }
+//  @media screen and (min-width:1200px){
+//     &:not(:last-child) {
+//             margin-bottom: 30px;
+//         }
+//  }
 }
 
 .team-section {
@@ -129,5 +129,9 @@
 .problem_image{
     @media screen and (min-width:768px) and (max-width:1199px){
         height: 374px;
+    }
+
+    @media screen and (min-width:1200px){
+        height: 285.25px;
     }
 }
