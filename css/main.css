@@ -834,6 +834,14 @@ img {
     margin-top: 40px;
   }
 }
+@media screen and (min-width: 768px) {
+  .projects-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 
 .project-list__item {
   width: 370px;
