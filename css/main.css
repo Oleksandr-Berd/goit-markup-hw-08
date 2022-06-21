@@ -257,6 +257,12 @@ img {
     margin-right: 88px;
   }
 }
+@media screen and (max-width: 767px) {
+  .logo {
+    display: block;
+    padding: 16px 0;
+  }
+}
 
 .accent {
   color: var(--logo-color);
@@ -326,6 +332,20 @@ img {
   transition: -webkit-transform 250ms var(--tran-hover);
   transition: transform 250ms var(--tran-hover);
   transition: transform 250ms var(--tran-hover), -webkit-transform 250ms var(--tran-hover);
+}
+@media screen and (max-width: 767px) {
+  .modal-wrapper {
+    max-width: 450px;
+    height: 609px;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-form {
+    margin: auto;
+  }
 }
 
 .cross-wrap {
@@ -771,6 +791,9 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
@@ -1251,6 +1274,12 @@ img {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/images_studio/bgi_hero_sm2x.jpg);
   }
 }
+@media screen and (max-width: 767px) {
+  .hero-section {
+    height: 100%;
+    min-height: 400px;
+  }
+}
 @media screen and (min-width: 768px) {
   .hero-section {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/images_studio/bgi_hero_md.jpg);
@@ -1495,6 +1524,11 @@ img {
   text-align: center;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 767px) {
+  .team-section__title {
+    font-size: 28px;
+  }
+}
 
 .teambottom__title {
   color: var(--title-color);
@@ -1592,6 +1626,11 @@ img {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .clients-section__title {
+    font-size: 28px;
+  }
 }
 
 .clients-list {

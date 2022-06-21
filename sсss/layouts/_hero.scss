@@ -25,6 +25,11 @@
     max-width: 480px;
     height: 400px;
 
+    @media screen and (max-width:767px){
+        height: 100%;
+       min-height: 400px;
+    }
+
     @include mq(tablet){
         background-image:
                 linear-gradient(to right,
