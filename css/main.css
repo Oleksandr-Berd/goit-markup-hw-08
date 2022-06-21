@@ -794,6 +794,7 @@ img {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    margin-bottom: -15px;
   }
 }
 
@@ -807,6 +808,7 @@ img {
   .portfoliobtn-list__item {
     margin-right: 8px;
     margin-bottom: 21px;
+    margin-bottom: 15px;
   }
 }
 
@@ -829,6 +831,7 @@ img {
 @media screen and (max-width: 767px) {
   .projects-list {
     display: block;
+    margin-top: 40px;
   }
 }
 
@@ -860,6 +863,11 @@ img {
 .project-list__image {
   margin: 0;
   overflow: hidden;
+}
+@media screen and (max-width: 767px) {
+  .project-list__image {
+    width: 100%;
+  }
 }
 
 .project-list__link {
@@ -1396,7 +1404,7 @@ img {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .feature-list__title {
     text-align: center;
     font-size: 14px;
@@ -1502,6 +1510,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin: -15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1514,13 +1523,15 @@ img {
 .team-list__item {
   background-color: var(--neutral-color);
 }
-.team-list__item:not(:last-child) {
-  margin-bottom: 30px;
-}
 @media screen and (min-width: 768px) {
   .team-list__item {
     width: calc((100% - 60px) / 2);
     margin: 15px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-list__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -1621,14 +1632,22 @@ img {
 .teambottom-list__item:hover, .teambottom-list__item:focus {
   background-color: var(--accent-color);
 }
-.teambottom-list__item:not(:last-child) {
-  margin-right: 10px;
+@media screen and (min-width: 1200px) {
+  .teambottom-list__item:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .teambottom-list__icon {
   fill: var(--icons);
   -webkit-transition: fill 250ms var(--tran-hover);
   transition: fill 250ms var(--tran-hover);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .problem_image {
+    height: 374px;
+  }
 }
 
 .clients-section__title {

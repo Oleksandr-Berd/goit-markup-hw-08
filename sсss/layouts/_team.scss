@@ -3,6 +3,7 @@
     @media screen and (min-width:768px) {
             display: flex;
             flex-wrap: wrap;
+            margin: -15px;
         }
 
     @media screen and (min-width:1200px) {
@@ -14,19 +15,17 @@
 }
 
 .team-list__item {
-    // margin-right: 30px;
     background-color: var(--neutral-color);
-
-&:last-child {
-        // margin-right: 0;
-    }
-&:not(:last-child){
-    margin-bottom: 30px;
-}
 
  @media screen and (min-width:768px) {
      width: calc((100% - 2 * 30px)/2);
      margin: 15px;
+ }
+
+ @media screen and (min-width:1200px){
+    &:not(:last-child) {
+            margin-bottom: 30px;
+        }
  }
 }
 
@@ -114,12 +113,21 @@
             background-color: var(--accent-color);
         }
     
-    &:not(:last-child) {
-        margin-right: 10px;
+        @media screen and (min-width:1200px){
+            &:not(:last-child) {
+                    margin-right: 10px;
                 }
+        }
+    
 }
 
 .teambottom-list__icon {
     fill: var(--icons);
     transition: fill 250ms var(--tran-hover);
+}
+
+.problem_image{
+    @media screen and (min-width:768px) and (max-width:1199px){
+        height: 374px;
+    }
 }
