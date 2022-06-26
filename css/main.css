@@ -450,8 +450,8 @@ img {
 
 .form-modal-icon {
   position: absolute;
-  bottom: 11px;
-  left: 12px;
+  bottom: 33px;
+  left: 10px;
   -webkit-transition: fill 250ms var(--tran-hover);
   transition: fill 250ms var(--tran-hover);
   cursor: pointer;
